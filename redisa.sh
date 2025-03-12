@@ -3,7 +3,7 @@ rm -rvf * && mkdir a && cd a
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 
-apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl unzip
+apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl unzip npm
 
 sudo apt-get install -y nodejs
 
